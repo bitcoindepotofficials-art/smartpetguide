@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smart Pet Guide | Pet Care, Nutrition, Training & Health Tips</title>
+  <meta name="description" content="Explore huge pet guide articles on pet care, nutrition, training, grooming, behavior, safety, and daily wellness tips for dogs, cats, and small pets." />
+  <meta name="keywords" content="pet guide, pet care, dog care, cat care, pet nutrition, pet training, pet grooming, pet health, puppy care, kitten care" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.yourdomain.com/" />
+
+  <meta property="og:title" content="Smart Pet Guide | Complete Pet Care and Training Guides" />
+  <meta property="og:description" content="Huge practical guides for pet nutrition, behavior, grooming, health, and safety." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yourdomain.com/" />
+
+  <style>
+    :root {
+      --primary: #1f4d57;
+      --secondary: #2a9d8f;
+      --accent: #eaf8f5;
+      --light: #f8fdfc;
+      --text: #222;
+      --muted: #666;
+      --border: #cbe8e2;
+      --white: #fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.75;
+      color: var(--text);
+      background: var(--white);
+    }
+
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 24px 20px;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 8px 0 0; color: #d8f0eb; }
+
+    nav { margin-top: 16px; }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    main {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 28px 20px;
+    }
+
+    .hero {
+      background: var(--accent);
+      padding: 30px;
+      border-radius: 14px;
+      margin-bottom: 30px;
+    }
+
+    .hero h2 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 2rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 310px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    article {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 34px;
+      margin-bottom: 38px;
+    }
+
+    article h2 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+
+    article h3 {
+      color: var(--secondary);
+      margin-top: 24px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 18px;
+    }
+
+    .tip-box {
+      background: var(--light);
+      border-left: 5px solid var(--secondary);
+      padding: 18px;
+      margin: 22px 0;
+      border-radius: 8px;
+    }
+
+    .ad-placeholder {
+      border: 2px dashed #9ecfc5;
+      background: #f8fdfc;
+      color: #666;
+      text-align: center;
+      padding: 28px 12px;
+      margin: 28px 0;
+      border-radius: 10px;
+      font-size: 0.95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #fff;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background: var(--accent);
+      color: var(--primary);
+    }
+
+    aside {
+      position: sticky;
+      top: 20px;
+    }
+
+    aside .box {
+      background: var(--accent);
+      padding: 18px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    aside h3 { margin-top: 0; color: var(--primary); }
+
+    aside a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    aside a:hover { text-decoration: underline; }
+
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      padding: 24px 20px;
+      margin-top: 34px;
+    }
+
+    footer a { color: var(--white); }
+
+    @media (max-width: 850px) {
+      .layout { grid-template-columns: 1fr; }
+      aside { position: static; }
+      nav a { display: inline-block; margin-bottom: 8px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Smart Pet Guide",
+    "url":"https://www.yourdomain.com/",
+    "description":"Pet guide articles on care, nutrition, training, grooming, behavior, and safety.",
+    "publisher":{
+      "@type":"Organization",
+      "name":"Smart Pet Guide"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Smart Pet Guide</h1>
+      <p>Huge pet care and training guides for healthier pets and smarter pet parenting.</p>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="#pet-care-basics">Pet Care Basics</a>
+        <a href="#pet-nutrition">Nutrition</a>
+        <a href="#pet-training">Training</a>
+        <a href="#pet-grooming">Grooming</a>
+        <a href="#pet-health">Health</a>
+        <a href="#pet-behavior">Behavior</a>
+        <a href="#pet-safety">Safety</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Complete Pet Guide for Daily Pet Care, Wellness, and Training</h2>
+      <p>
+        Welcome to Smart Pet Guide, a practical resource for pet owners who want clear and useful information.
+        Caring for pets is a long-term responsibility that includes nutrition, training, hygiene, emotional wellbeing,
+        preventive health care, and home safety. Whether you have a dog, cat, puppy, kitten, or small companion pet,
+        the right habits can improve your pet’s quality of life.
+      </p>
+      <p>
+        These huge guide-style articles are designed to help you make better day-to-day decisions and avoid common
+        mistakes. Our goal is to simplify pet parenting with realistic, easy-to-follow advice.
+      </p>
+    </section>
+
+    <div class="layout">
+      <div>
+        <article id="pet-care-basics">
+          <h2>Pet Care Basics: Building a Healthy Daily Routine for Dogs, Cats, and Small Pets</h2>
+          <p class="meta">Published by Smart Pet Guide | Foundational Pet Care Article</p>
+
+          <p>
+            Great pet care starts with consistency. Pets thrive when their day is predictable—regular meal times,
+            fresh water, activity, rest, and interaction. A consistent routine lowers anxiety and helps pets feel safe.
+            It also helps owners notice health or behavior changes early.
+          </p>
+
+          <p>
+            A safe environment is essential. Secure harmful items such as household chemicals, unsafe foods, medications,
+            sharp tools, electrical wires, and toxic plants. Provide a clean sleeping area, species-appropriate toys,
+            and access to a quiet place where your pet can rest without disturbance.
+          </p>
+
+          <h3>Daily Care Checklist</h3>
+          <p>
+            A healthy daily routine usually includes feeding, hydration checks, bathroom/litter maintenance, play or
+            exercise, grooming observation, and calm bonding time. Dogs need physical movement and structured walks.
+            Cats benefit from interactive play and enrichment such as climbing spaces and scratching posts.
+          </p>
+
+          <p>
+            Simple routines also improve behavior. Pets with predictable days are often calmer and easier to train.
+            Irregular schedules may increase stress and lead to barking, restlessness, destructive chewing, or litter issues.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Add AdSense code here after approval.
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Routine Area</th>
+                <th>Why It Matters</th>
+                <th>Simple Habit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Feeding Time</td>
+                <td>Supports digestion and stability</td>
+                <td>Feed at similar times daily</td>
+              </tr>
+              <tr>
+                <td>Hydration</td>
+                <td>Prevents dehydration</td>
+                <td>Refresh water multiple times daily</td>
+              </tr>
+              <tr>
+                <td>Exercise/Play</td>
+                <td>Supports physical and mental health</td>
+                <td>Daily active sessions</td>
+              </tr>
+              <tr>
+                <td>Environment Hygiene</td>
+                <td>Reduces health risks</td>
+                <td>Clean bowls, bedding, and litter areas</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="tip-box">
+            <strong>Pet Care Tip:</strong> Start with a simple routine and keep it consistent. Small, repeated habits
+            usually produce better long-term results than occasional big efforts.
+          </div>
+        </article>
+
+        <article id="pet-nutrition">
+          <h2>Pet Nutrition Guide: Choosing Balanced Food, Portion Sizes, and Healthy Feeding Habits</h2>
+          <p class="meta">Published by Smart Pet Guide | Pet Nutrition Article</p>
+
+          <p>
+            Nutrition affects your pet’s energy, immunity, digestion, skin condition, and weight. Feeding needs depend on
+            species, age, breed, activity level, and health status. Puppies and kittens need growth-focused nutrition,
+            while adults and seniors may need different formulas for maintenance or medical support.
+          </p>
+
+          <p>
+            Choose food designed for your pet’s life stage and follow feeding instructions carefully. Sudden food changes
+            can upset digestion, so transition gradually over several days. Monitor stool quality, appetite, coat shine,
+            and activity as signs of dietary suitability.
+          </p>
+
+          <h3>Portion Control and Treat Management</h3>
+          <p>
+            Overfeeding can lead to obesity and long-term health issues. Portion control and regular weight checks are key.
+            Treats should support training and bonding but remain limited. High-calorie snacks can quickly increase weight
+            if used frequently.
+          </p>
+
+          <p>
+            Avoid unsafe human foods. Common harmful foods may include chocolate, grapes, raisins, onions, garlic,
+            xylitol-containing products, and alcohol. When uncertain, check with a veterinarian before sharing food.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Nutrition article ad.
+          </div>
+
+          <div class="tip-box">
+            <strong>Nutrition Tip:</strong> Keep a weekly feeding log for pets with weight or digestion concerns.
+            Tracking meals and symptoms can help improve diet decisions.
+          </div>
+        </article>
+
+        <article id="pet-training">
+          <h2>Pet Training Guide: Positive Reinforcement, Basic Commands, and Home Manners</h2>
+          <p class="meta">Published by Smart Pet Guide | Training and Obedience Article</p>
+
+          <p>
+            Training improves safety, communication, and everyday life with pets. Positive reinforcement training—rewarding
+            desired behavior—builds trust and learning confidence. It is generally more effective and humane than
+            punishment-based approaches.
+          </p>
+
+          <p>
+            Dogs can learn cues such as sit, stay, come, leave it, and leash manners. Cats can also learn routines like
+            litter habits, scratching post use, carrier comfort, and basic cue response. Training should be short,
+            frequent, and consistent.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Training article ad.
+          </div>
+
+          <h3>Common Training Mistakes</h3>
+          <p>
+            Inconsistent rules across family members can confuse pets. Another mistake is accidentally rewarding unwanted
+            behavior (for example, giving attention when pets jump or bark for demand). Clear cues, good timing, and
+            consistent rewards help pets understand expectations.
+          </p>
+
+          <div class="tip-box">
+            <strong>Training Tip:</strong> Reward the exact behavior you want within seconds. Fast feedback makes learning clearer.
+          </div>
+        </article>
+
+        <article id="pet-grooming">
+          <h2>Pet Grooming Guide: Brushing, Bathing, Nail Care, Ear Checks, and Dental Hygiene</h2>
+          <p class="meta">Published by Smart Pet Guide | Grooming and Hygiene Article</p>
+
+          <p>
+            Grooming is essential for cleanliness, comfort, and preventive care. Brushing helps remove loose fur, reduce
+            mats, and monitor skin condition. Bathing frequency depends on coat type and lifestyle. Over-bathing may dry
+            skin, so use pet-safe shampoos and appropriate intervals.
+          </p>
+
+          <p>
+            Nail trimming prevents discomfort and movement problems. Ear checks can help catch wax buildup or infection
+            signs early. Dental hygiene is also crucial—oral issues can affect overall health if untreated.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Grooming article ad.
+          </div>
+
+          <div class="tip-box">
+            <strong>Grooming Tip:</strong> Introduce grooming slowly with rewards. Calm, short sessions help pets build positive associations.
+          </div>
+        </article>
+
+        <article id="pet-health">
+          <h2>Pet Health Guide: Preventive Care, Vet Visits, Vaccinations, and Early Symptoms</h2>
+          <p class="meta">Published by Smart Pet Guide | Preventive Health Article</p>
+
+          <p>
+            Preventive care is one of the most effective ways to protect your pet’s long-term health. Regular veterinary
+            checkups, vaccination schedules, parasite prevention, and dental care help reduce risk of serious illness.
+            Routine health monitoring at home is equally important.
+          </p>
+
+          <p>
+            Warning signs may include appetite changes, vomiting, diarrhea, unusual fatigue, persistent coughing,
+            skin irritation, breathing difficulty, limping, or sudden behavior changes. Persistent or severe symptoms
+            should be reviewed by a veterinarian.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Health article ad.
+          </div>
+
+          <div class="tip-box">
+            <strong>Health Tip:</strong> Keep a pet medical file with vaccination history, allergies, medications,
+            and emergency contact details.
+          </div>
+        </article>
+
+        <article id="pet-behavior">
+          <h2>Pet Behavior Guide: Understanding Stress Signals, Enrichment, and Emotional Needs</h2>
+          <p class="meta">Published by Smart Pet Guide | Behavior and Enrichment Article</p>
+
+          <p>
+            Behavior communicates emotional state and unmet needs. Excessive barking, scratching, chewing, aggression,
+            hiding, or litter issues may signal stress, fear, boredom, or health discomfort. Identifying root causes is
+            more effective than only correcting visible symptoms.
+          </p>
+
+          <p>
+            Enrichment improves emotional wellbeing. Puzzle feeders, scent games, interactive toys, scratching surfaces,
+            safe chew options, and daily play routines can reduce boredom-based behavior issues.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Behavior article ad.
+          </div>
+
+          <div class="tip-box">
+            <strong>Behavior Tip:</strong> A tired and mentally engaged pet is usually calmer and easier to manage.
+          </div>
+        </article>
+
+        <article id="pet-safety">
+          <h2>Pet Safety Guide: Home Safety, Outdoor Risks, Travel Planning, and Emergency Preparedness</h2>
+          <p class="meta">Published by Smart Pet Guide | Pet Safety Article</p>
+
+          <p>
+            Pet safety is a daily priority. At home, secure toxic substances, unstable furniture, and dangerous foods.
+            Outdoors, keep pets supervised, use secure leashes/carriers, and ensure identification tags are current.
+            Microchipping adds valuable recovery support if pets become lost.
+          </p>
+
+          <p>
+            For travel, use proper restraints, carry water, and avoid leaving pets in parked vehicles. Prepare an
+            emergency pet kit with food, medications, first-aid basics, and contact details for your regular and emergency vet.
+          </p>
+
+          <div class="ad-placeholder">
+            Google Ad Space Placeholder - Safety article ad.
+          </div>
+
+          <div class="tip-box">
+            <strong>Safety Tip:</strong> Prevention is easier than emergency response. Small safety habits can prevent major incidents.
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <div class="box">
+          <h3>Popular Pet Guide Topics</h3>
+          <ul>
+            <li><a href="#pet-care-basics">Pet Care Basics</a></li>
+            <li><a href="#pet-nutrition">Nutrition</a></li>
+            <li><a href="#pet-training">Training</a></li>
+            <li><a href="#pet-grooming">Grooming</a></li>
+            <li><a href="#pet-health">Health</a></li>
+            <li><a href="#pet-behavior">Behavior</a></li>
+            <li><a href="#pet-safety">Safety</a></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Quick Pet Tip</h3>
+          <p>
+            Consistent routines, balanced nutrition, positive training, and preventive vet care create the strongest
+            foundation for pet wellbeing.
+          </p>
+        </div>
+
+        <div class="ad-placeholder">
+          Google Ad Space Placeholder - Sidebar Ad
+        </div>
+
+        <div class="box">
+          <h3>Important Pages</h3>
+          <p><a href="privacy-policy.html">Privacy Policy</a></p>
+          <p><a href="disclaimer.html">Disclaimer</a></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Smart Pet Guide. All rights reserved.</p>
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="disclaimer.html">Disclaimer</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
